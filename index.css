@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.titulo{
+    font-size: xx-large;
+    display: flex;
+    background: black;
+    color: white;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.contenedorgrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    background: aquamarine;
+    color: black;
+}
+
+.itemgrig{
+width: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contenedor-informacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+     
